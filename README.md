@@ -27,7 +27,3 @@ Each task is provided in its respective directory.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize the content further if needed!
