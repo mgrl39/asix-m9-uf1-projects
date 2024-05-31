@@ -1,0 +1,26 @@
+.atencio {
+    /* la class amb la propietat de text negreta */
+    font-weight: bold;
+}
+
+/*
+Afegeix un border de color black
+Es la distancia que hi ha al border i a la llista
+*/
+
+
+#nav {
+    border: 1px solid black;
+    padding: 40px;
+}
+
+
+
+/*
+Això significa que els enllaços dins de la llista 
+amb l'id nav no tindran la línia de subratllat.
+*/
+
+li a {
+    text-decoration: none;
+}

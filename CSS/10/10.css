@@ -1,0 +1,57 @@
+h2 {
+    font-size: 2.2em;
+    color: #C63;
+}
+
+label {
+    display: block;
+    text-align: right;
+    margin-right: 20%;
+    line-height: 2em;
+}
+
+
+#form1 {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    width: 650px;
+    text-align: center;
+    background-color: pink;
+    padding: 20px;
+
+}
+
+/*Fins aquí arriba la plantilla */
+
+/*
+seleccionem es botons d'enviar i el d'esborrar
+*/
+input[name|="boto"] {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*
+Seleccionem les caixes de text quan tinguin el focus del telat
+*/
+
+input[type="text"]:focus {
+    background-color: #FF9;
+}
+
+/*
+Seleccionem els botons d'enviar i e d'esborrar quan tinguin el focus del teclat
+*/
+
+input[name|="boto"]:focus {
+    background-color: #FC9;
+}
+
+/*
+Seleccionem els botons d'enviar i el d'esborrar quan e ratoli els passi per sobre
+*/
+
+input[name|="boto"]:hover {
+    background-color: #FFCCFF;
+    font-weight: bold;
+}

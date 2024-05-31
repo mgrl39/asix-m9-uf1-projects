@@ -1,0 +1,36 @@
+* {
+    font-family: 'Geneva', Arial, Helvetica, sans-serif;
+}
+
+/* que els vincles no tinguin cap decoració */
+a {
+    text-decoration: none;
+}
+
+p {
+    /* que els paràgrafs siguin del tipus "Courier New" de color “silver” i de tamany 0.8em. */
+    font-family: 'Courier New';
+    color: silver;
+    font-size: 0.8em;
+}
+
+#nav {
+    color: red;
+    background: #FF6;
+}
+
+#nav li {
+    /* text en negreta*/
+    font-weight: bold;
+    /* canvia els · del li a lletres (a,b,c,d,e,f)*/
+    list-style: lower-alpha;
+}
+
+#nav li+li {
+    font: italic 1.2em "Comic Sans MS", Arial, Helvetica;
+
+    /* en comptes de posar #CCFFFF
+    hem posat #CFF estalviant-nos repetir les xifres.*/
+
+    background: #CFF
+}

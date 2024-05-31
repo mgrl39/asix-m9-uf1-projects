@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<!--Secció del document que conté metadades i enllaços a recursos-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularis</title>
+</head>
+
+
+<body>
+    <h1>Formularis</h1>
+    <form action="9.html" method="post">
+
+        <!-- Input type text + Input type email + Input type password -->
+        <!-- Usuari -->
+        <label for="fusuari">Usuari</label><br>
+        <input type="text" id="fusuari" required name="fusuari" autofocus><br><br>
+
+        <!-- Email -->
+        <label for="femail">Email</label><br>
+        <input type="email" placeholder="usuari@domini.com" id="femail" required name="femail"><br><br>
+
+        <!-- Contrasenya -->
+        <label for="fpassword">Contrasenya</label><br>
+        <input type="password" id="fpassword" required name="fpassword"><br><br>
+
+        <hr>
+        <br>
+
+        <!-- Familia -->
+        <label for="ffamilia">Familia</label><br><br>
+        <select name="ffamilia" id="ffamilia">
+            <option value="ginteractiva">Gràfica interactiva</option>
+            <option value="animacio">Animació</option>
+            <option value="comic" selected>Còmic</option>
+            <option value="altres">Altres</option>
+        </select>
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="fcomentari">Comentari</label><br><br>
+        <textarea rows="5" cols="30" name="fcomentari" id="fcomentari"></textarea>
+
+        <!-- Input type radio -->
+        <br><br>
+        <label for="frhome">
+            <input type="radio" id="frhome" name="foption">Home
+        </label><br>
+
+        <label for="frdona">
+            <input type="radio" id="frdona" name="foption" checked>Dona
+        </label>
+
+        <hr>
+        <!-- Input type checkbox -->
+        <p>En aquest curs aprendràs</p>
+        <label for="checkhtml">
+            <input type="checkbox" id="checkhtml" name="htmlcheck">HTML5
+        </label><br>
+        <label for="checkcss">
+            <input type="checkbox" id="checkcss" name="csscheck">CSS3
+        </label><br>
+        <label for="checkjs">
+            <input type="checkbox" id="checkjs" name="jscheck">Javascript
+        </label><br>
+        <label for="checkphp">
+            <input type="checkbox" id="checkphp" name="phpcheck">PHP
+        </label><br>
+
+        <hr>
+        <!-- Input type submit + Input type reset-->
+        <!-- El que envia-->
+        <button type="submit">Enviar</button>
+        <!-- El que reinicia -->
+        <button type="reset">Reiniciar</button>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+/*
+Amb el primer selector diem que totes les etiquetes <p> 
+hauran de ser d’aquestes característiques
+
+*/
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #9C3;
+}
+
+/*
+Amb el segon diem que tots els descendents <p> de <h3> 
+seran en cursiva i d’un color blavós.
+
+*/
+h3 p {
+    font-style: italic;
+    color: #3366CC;
+}
+
+/*
+Amb el tercer selector designem nomes els fills <p> de <h3>
+*/
+
+h3>p {
+    color: red;
+    background-color: rgb(170, 255, 0);
+}

@@ -1,0 +1,26 @@
+#nav {
+    /*
+    Afegeix un border de color black
+    */
+
+
+    border: 1px solid black;
+
+    /*
+    Es la distancia que hi ha al border i a la llista
+    */
+    padding: 40px;
+}
+
+/*
+Això significa que els enllaços dins de la llista 
+amb l'id nav no tindran la línia de subratllat.
+*/
+
+li a {
+    text-decoration: none;
+}
+
+/*
+La regla text-decoration: none; aplicada a li a: eliminarà la subratllat dels enllaços (<a>), però no afectarà el color del text.
+*/

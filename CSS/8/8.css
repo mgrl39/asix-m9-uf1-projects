@@ -1,0 +1,79 @@
+/*
+:link            	correspon a un enllaç en l'estat 'normal'
+*/
+
+
+a:link {
+    color: blue;
+}
+
+/*
+:visited       	correspon a un element que ja ha estat visitat
+*/
+
+a:visited {
+    color: orange;
+}
+
+/*
+:active        	correspon al moment que estem fent clic sobre l’element
+
+*/
+
+a:hover {
+    background-color: red;
+    color: white;
+}
+
+/*
+:hover        	correspon al fet de moure el punter del ratolí per sobre l’element
+*/
+
+a:active {
+    color: cyan;
+    background-color: #30C;
+}
+
+/* que els vincles no tinguin cap decoració */
+a {
+    text-decoration: none;
+}
+
+/*
+S'ha de retallar l'etiqueta <li> a 100 pixels d'ampllada
+Posar-hi el fons de color rosa (pink) i un "border " blanc, sòlid d'un pixel
+per crear la il·lusió de separació entre opcions del menú"
+*/
+
+#nav li {
+    /* text en negreta*/
+    font-weight: bold;
+    /* S'ha de retallar l'etiqueta <li> a 100 píxels d'amplada */
+    width: 100px;
+
+    background-color: pink;
+    border: 1px solid white;
+    list-style: none
+}
+
+p {
+    /* que els paràgrafs siguin del tipus "Courier New" de color “silver” i de tamany 0.8em. */
+    font-family: 'Courier New';
+    color: silver;
+    font-size: 0.8em;
+}
+
+
+/*
+l'enllaç ocuparà tot l'ample de la seva contenidora i 
+es col·locarà en una nova línia, forçant qualsevol element 
+següent a aparèixer en una línia separada.
+*/
+
+a {
+    display: block;
+    /*
+    No demanes explicitament la font que s'ha d'utilitzar exactament, diría que es aquesta o molt semblant:
+    font-family: 'Courier New';
+    */
+}

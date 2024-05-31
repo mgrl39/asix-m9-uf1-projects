@@ -1,0 +1,85 @@
+/* També anomenats pseudoelements tipogràfics perquè 
+s’associen a efectes tipogràfics. */
+
+
+/*
+Aquesta regla s'utilitza per definir la codificació de caràcters
+per al full d'estil.
+*/
+@charset "utf-8";
+
+
+h1 {
+    /* Fa que tot el text dins de l'element h1 es mostri en majúscules */
+    text-transform: uppercase;
+    /* Estableix el color del text a una tonalitat taronja */
+    color: #F90;
+    /* Estableix el color de fons de l'element h
+    Utilitza notació RGB (vermell, verd i blau) */
+    background: rgb(255, 255, 200);
+}
+
+p {
+
+    /*
+    si la tipografia Georgia no està disponible, 
+    el navegador intentarà utilitzar "Time New Roman". 
+    Si aquesta no està disponible, provarà amb "Times". 
+    Si cap d'aquestes està disponible, utilitzarà una 
+    tipografia genèrica de la família de tipografies serif
+    */
+    font-family: Georgia, "Time New Roman", Times, serif;
+
+    /*
+    Estableix el color del text dels paràgrafs a blau 
+    */
+    color: blue;
+}
+
+/*
+Aquest selector s'aplicara només a la primera letra
+de cada element <p>.
+És un SEUDOELEMENT que selecciona
+la primera lletra del contingut del paràgrafs.
+*/
+
+p:first-letter {
+    /*  
+    Estableix la mida de la lletra de la primera lletra a "xx-large"
+    */
+    font-size: xx-large;
+
+    /*
+    Estableix el color de la primera lletra a una tonalitat de vermell fosc.
+    */
+    color: #900
+}
+
+
+
+/*
+Aquest és un selector de classe que s'aplica a 
+tots els elements que tenen la classe "error".
+*/
+
+.error {
+    /*
+    Estableix el color dle text dels elements amb la classe "error" a vermell
+    */
+    color: red;
+}
+
+/*
+Aquest selector s'aplica només a la primera línia del 
+contingut dels elements <p> que tenen la classe "error".
+*/
+p.error:first-line {
+    /*
+    Estableix el color del text de la primera línia a un to de lila
+    */
+    color: #F0F;
+    /*
+    Estableix una subratllat per a la primera línea del text
+    */
+    text-decoration: underline;
+}

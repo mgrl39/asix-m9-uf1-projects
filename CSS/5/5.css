@@ -1,0 +1,31 @@
+/*
+El selector universal engloba a tots els elements del 
+document HTML. Es representa amb el caràcter d'asterisc: *.
+
+En el full d’estil afegireu el següent codi. 
+Amb el primer selector diem que tot el text és d’aquest color.
+
+*/
+
+* {
+    color: #CCCCFF;
+}
+
+/*
+Totes les etiquetes <p> les farem amb aquestes característiques
+*/
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #99CC33;
+}
+
+/*
+Diem que a partir dels “nets” de <body> 
+amb etiqueta <p> rebran les propietats següents.
+
+L’asterisc (*) equival a qualsevol “fill” de body.
+*/
+body * p {
+    font-style: italic;
+    color: #FF6600;
+}

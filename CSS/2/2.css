@@ -1,0 +1,49 @@
+/* aquí els comentaris son d'aquesta manera */
+
+/* body amb la propietat del tipus de 
+font i el valor de verdana,arial,sans-serif.
+*/
+
+/*
+Si el navegador té "Verdana", l'utilitzarà; 
+si no, provarà amb "Arial". 
+Si cap de les dues està disponible, utilitzarà una tipografia sans-serif genèrica
+*/
+body {
+    font-family: Verdana, arial, sans-serif;
+}
+
+/*
+
+h1 amb la propietat de mida de la font
+i el valor de 150%.
+
+*/
+h1 {
+    font-size: 150%;
+    /*
+    s'està establint la mida com un 150% de la mida predeterminada. 
+    Aquesta mida pot ser interpretada com un augment del 50% respecte a la mida predeterminada.
+    */
+}
+
+/*
+a amb la propietat de la decoració del text 
+i el valor de none.
+*/
+
+a {
+    text-decoration: none;
+    /*
+    Estem eliminant qualsevol subratllat o decoració del text.
+    */
+}
+
+/*
+p amb la propietat de mida de la font i el valor de 75%.
+*/
+
+p {
+    font-size: 75%;
+    /* Establerta al 75% del valor predeterminat */
+}

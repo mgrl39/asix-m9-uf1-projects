@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Taules</title>
+    <style>
+        td {
+            border: 1px solid blue;
+        }
+
+        table {
+            border-spacing: 0;
+            margin: auto;
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>1</td>
+            <td rowspan=4>2</td>
+            <td rowspan=3>3</td>
+            <td rowspan=3>4</td>
+            <td rowspan=2>5</td>
+            <td rowspan=2>6</td>
+            <td rowspan=2>7</td>
+        </tr>
+        <tr>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td rowspan=2 colspan=3>10</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td colspan=2>12</td>
+        </tr>
+    </table>
+</body>
+
+</html>
